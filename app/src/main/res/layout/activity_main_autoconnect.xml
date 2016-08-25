@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_editor_absoluteX="0dp"
@@ -8,11 +9,11 @@
 
     <ImageView
         android:src="@drawable/singapore"
-        android:layout_width="184dp"
-        android:layout_height="203dp"
-        app:layout_editor_absoluteX="100dp"
-        app:layout_editor_absoluteY="68dp"
-        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="202dp"
+        android:id="@+id/imageView4"
         android:scaleType="centerCrop"
-        android:contentDescription="@string/dummy" />
+        app:layout_constraintRight_toRightOf="@+id/constraintLayout"
+        app:layout_constraintLeft_toLeftOf="@+id/constraintLayout"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout" />
 </android.support.constraint.ConstraintLayout>
